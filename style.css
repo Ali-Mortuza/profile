@@ -1,0 +1,65 @@
+body{
+    font-family: 'PT Serif', serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.alisclr{
+    color: darkcyan ;
+}
+.flexible-container{display: flex;
+        margin-bottom: 125px;
+}
+.half{
+    width:50%;
+    padding-left: 3%;
+}
+.half img{width:75%}
+.hire {
+    color: floralwhite;
+    text-decoration: none;
+    background-image: linear-gradient(#65ebeb,#008b8b);
+    border-radius: 5%;
+    padding: 1.5% 5%;
+    font-size: large;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.side-banner{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience{
+   
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2%;
+    box-shadow: 10px 10px 40px darkgray;
+}
+
+.expbg{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 100%;
+   
+}
+#expone{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#exptwo{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(28, 187, 89), rgb(125, 224, 178));
+    border-image-slice: 1;
+}
